@@ -6,9 +6,11 @@ subtitle: you, meet me
 
 My name is Michael Ford. I'm a human who splits his time between nerding out over computational biology problems and being outdoors to go up and down repeatedly while doing pointless but fun activities. 
 
+<p align="center">
 <!-- InstaWidget -->
+<script src="https://instawidget.net/js/instawidget.js?u=81210ccb051a10f9bb6da8ab1eb2d7faddfe42fa21e3a9434abef742fbb12144&width=700px"></script>
 <a href="https://instawidget.net/v/user/mikegoesupanddown" id="link-81210ccb051a10f9bb6da8ab1eb2d7faddfe42fa21e3a9434abef742fbb12144">@mikegoesupanddown</a>
-<script src="https://instawidget.net/js/instawidget.js?u=81210ccb051a10f9bb6da8ab1eb2d7faddfe42fa21e3a9434abef742fbb12144&width=600px"></script>
+</p>
 
 ###Education
 I am currently a MSc candidate in the School of Computing Science at (Simon Fraser University)[www.sfu.ca] supervised by (Cenk Sahinal)[https://www.sice.indiana.edu/all-people/profile.html?profile_id=291] and (Faraz Hach)[http://www.cs.sfu.ca/~fhach/personal/]. I am a member of the SFU Computational Biology Lab as well as the (Lab for Bioinformatics and Computational Genomics)[http://www.iu.edu/~compgen/index.html] at Indiana University. 
