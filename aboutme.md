@@ -12,6 +12,6 @@ My name is Michael Ford. I'm a human who splits his time between nerding out ove
 </p>
 
 ### Education
-I am currently a MSc candidate in the School of Computing Science at (Simon Fraser University)[www.sfu.ca] supervised by (Cenk Sahinal)[https://www.sice.indiana.edu/all-people/profile.html?profile_id=291] and (Faraz Hach)[http://www.cs.sfu.ca/~fhach/personal/]. I am a member of the SFU Computational Biology Lab as well as the (Lab for Bioinformatics and Computational Genomics)[http://www.iu.edu/~compgen/index.html] at Indiana University. 
+I am currently a MSc candidate in the School of Computing Science at [Simon Fraser University](www.sfu.ca) supervised by [Cenk Sahinalp](https://www.sice.indiana.edu/all-people/profile.html?profile_id=291) and [Faraz Hach](http://www.cs.sfu.ca/~fhach/personal/). I am a member of the SFU Computational Biology Lab as well as the [Lab for Bioinformatics and Computational Genomics](http://www.iu.edu/~compgen/index.html) at Indiana University. 
 
-I did my BSc at SFU in the (Joint Major program in Computing Science and Molecular Biology and Biochemistry)[https://www.sfu.ca/bioinformatics/undergrad.html]. My multi-displinary degree gave me foundational knowledge in the general field of biology as well as computer science, as well as providing the opportunity to focus my studies on genomics and combinatorial algoirithms.
+I did my BSc at SFU in the [Joint Major program in Computing Science and Molecular Biology and Biochemistry](https://www.sfu.ca/bioinformatics/undergrad.html). My multi-displinary degree gave me foundational knowledge in the general field of biology as well as computer science, as well as providing the opportunity to focus my studies on genomics and combinatorial algoirithms.
