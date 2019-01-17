@@ -1057,11 +1057,23 @@ body .markdown-body
 .codehilite .gc{color:#999;background-color:#EAF2F5}
 </style><title>bcbuddispatch-work-log</title></head><body><article class="markdown-body"><h1 id="work-log">Work Log<a class="headerlink" href="#work-log" title="Permanent link"></a></h1>
 <h2 id="130119">13/01/19<a class="headerlink" href="#130119" title="Permanent link"></a></h2>
-<h2 id="1220-230">12:20 - 2:30<a class="headerlink" href="#1220-230" title="Permanent link"></a></h2>
+<h3 id="1220-230">12:20 - 2:30<a class="headerlink" href="#1220-230" title="Permanent link"></a></h3>
 <ul>
 <li>Researched compatability with plugins</li>
 <li>Installed <a href="https://wordpress.org/plugins/updraftplus/">Updraft plugin</a> and created backup</li>
-<li>Installed PHP Compatibility Checker, ran </li>
+<li>Installed PHP Compatibility Checker, ran 7.2 report</li>
+</ul>
+<h2 id="170119">17/01/19<a class="headerlink" href="#170119" title="Permanent link"></a></h2>
+<h3 id="1200-">12:00 -<a class="headerlink" href="#1200-" title="Permanent link"></a></h3>
+<ul>
+<li>Installed <a href="https://bitnami.com/stack/wordpress/installer">Bitnami Wordpress 5.0.3 stack</a></li>
+<li>Downloaded Updraft plugin site backup files</li>
+<li>Install local staging server with PHP 7.2.3</li>
+<li>Discovered Updraft requires their pro version for migrating</li>
+<li>Install Duplicator plugin to clone website, ran build, recieved unresolvable errors due to website and database size</li>
+<li>Decided that <a href="https://managewp.com/blog/how-to-create-a-local-copy-of-a-live-wordpress-site">manually cloning the site</a> would take too long, switched tactics to using the savvii provided staging feature</li>
+<li>Savvii staging area gives captcha login error due to mismatch domain address in the google captcha settings</li>
+<li>finished 90% of pre-update research</li>
 </ul>
 <h1 id="report">Report<a class="headerlink" href="#report" title="Permanent link"></a></h1>
 <h2 id="plugin-compatibility-research">Plugin Compatibility Research<a class="headerlink" href="#plugin-compatibility-research" title="Permanent link"></a></h2>
@@ -1102,16 +1114,13 @@ body .markdown-body
 <li><a href="https://wordpress.org/support/topic/do-not-click-update-to-version-2-0-26/page/2/">Possible issues with version 2.0.26 (fix has been claimed, current version 2.0.38)</a></li>
 </ul>
 </li>
-<li class="task-list-item"><input type="checkbox" disabled/> User Role Editor</li>
-<li class="task-list-item"><input type="checkbox" disabled/> Warpdrive</li>
-<li class="task-list-item"><input type="checkbox" disabled/> <ul>
-<li><a href="https://wpovernight.com/downloads/woocommerce-print-orders/">https://wpovernight.com/downloads/woocommerce-print-orders/</a></li>
-</ul>
-</li>
+<li class="task-list-item"><input type="checkbox" disabled checked/> <a href="https://wordpress.org/support/topic/just-what-i-needed-556/">User Role Editor</a></li>
+<li class="task-list-item"><input type="checkbox" disabled checked/> <a href="https://www.savvii.com/blog/savvii-warpdrive-plugin-open-source/">Warpdrive</a></li>
+<li class="task-list-item"><input type="checkbox" disabled checked/> <a href="https://wpovernight.com/downloads/woocommerce-print-orders/">WooCommerce Print Invoice &amp; Delivery Note</a></li>
 <li class="task-list-item"><input type="checkbox" disabled/> WP Social Sharing</li>
-<li class="task-list-item"><input type="checkbox" disabled/> WP Super Cache</li>
-<li class="task-list-item"><input type="checkbox" disabled/> WP-Optimize</li>
-<li class="task-list-item"><input type="checkbox" disabled/> WPBakery Page Builder (Modified Version)</li>
+<li class="task-list-item"><input type="checkbox" disabled checked/> <a href="https://wordpress.org/support/topic/full-support-php-7-2/">WP Super Cache</a></li>
+<li class="task-list-item"><input type="checkbox" disabled checked/> <a href="https://php.wpdanger.com/plugin.php?slug=wp-optimize">WP-Optimize</a></li>
+<li class="task-list-item"><input type="checkbox" disabled checked/> <a href="https://kb.wpbakery.com/docs/preface/release-notes/">WPBakery Page Builder (Modified Version)</a></li>
 <li class="task-list-item"><input type="checkbox" disabled/> YITH Plugin Framework Temporary Fix</li>
 <li class="task-list-item"><input type="checkbox" disabled/> YITH WooCommerce Mailchimp Premium</li>
 <li class="task-list-item"><input type="checkbox" disabled/> YITH WooCommerce Points and Rewards Premium</li>
@@ -1122,7 +1131,7 @@ body .markdown-body
 </li>
 </ul>
 <h2 id="php-compatibility-checker-72-report-errors">PHP Compatibility Checker - 7.2 Report Errors<a class="headerlink" href="#php-compatibility-checker-72-report-errors" title="Permanent link"></a></h2>
-<div class="codehilite"><pre>Name: All In One WP Security
+<p><div class="codehilite"><pre>Name: All In One WP Security
 
 The plugin/theme was skipped as it was too large to scan before the server killed the process.
 
@@ -1185,8 +1194,9 @@ FOUND 0 ERRORS AND 3 WARNINGS AFFECTING 2 LINES
  239 | WARNING | INI directive &#39;safe_mode&#39; is deprecated since PHP 5.3 and removed since PHP 5.4
  244 | WARNING | INI directive &#39;safe_mode_gid&#39; is deprecated since PHP 5.3 and removed since PHP 5.4
 -----------------------------------------------------------------------------------------------------
-
-Name: WPBakery Page Builder (Modified Version)
+</pre></div>
+    ^ Not an issue since 7.0 currently running fine
+<div class="codehilite"><pre>Name: WPBakery Page Builder (Modified Version)
 
 The plugin/theme was skipped as it was too large to scan before the server killed the process.
 
@@ -1198,8 +1208,9 @@ FOUND 0 ERRORS AND 1 WARNING AFFECTING 1 LINE
 --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
  193 | WARNING | The &quot;result&quot; parameter for function parse_str() is missing. Passing this parameter is no longer optional. The optional nature of the parameter is deprecated since PHP 7.2
 --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
-
-Name: YITH WooCommerce Mailchimp Premium
+</pre></div>
+    ^ this could be an issue, not sure what this plugin is
+<div class="codehilite"><pre>Name: YITH WooCommerce Mailchimp Premium
 
 The plugin/theme was skipped as it was too large to scan before the server killed the process.
 
@@ -1210,4 +1221,4 @@ The plugin/theme was skipped as it was too large to scan before the server kille
 Name: Yoast SEO Premium
 
 The plugin/theme was skipped as it was too large to scan before the server killed the process.
-</pre></div></article></body></html>
+</pre></div></p></article></body></html>
