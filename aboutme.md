@@ -1,17 +1,15 @@
 ---
 layout: page
 title: About me
-subtitle: you, meet me
+subtitle: 
 ---
 
-My name is Michael Ford. I'm a human who splits his time between nerding out over computational biology problems and being outdoors to go up and down repeatedly while doing pointless but fun activities. 
+Hey there, I'm Mike. I'm a Computational Biologist and Data Scientist who builds [tools for genomics research](github.com/michael-ford). I'm current employed by Indiana University, Bloomignton as a research contractor, and I primarily work with [Cenk Sahinalp](https://ccr.cancer.gov/cancer-data-science-laboratory/s-cenk-sahinalp) and the [Cancer Data Science Lab](https://ccr.cancer.gov/cancer-data-science-laboratory) at the National Cancer Institute, NIH.
 
-<p align="center">
-<!-- InstaWidget -->
-<script src="https://instawidget.net/js/instawidget.js?u=81210ccb051a10f9bb6da8ab1eb2d7faddfe42fa21e3a9434abef742fbb12144&width=700px"></script>
-</p>
+I am the creator of the [ImmunoTyper](https://github.com/michael-ford/ImmunoTyper) tool ([paper here](https://www.sciencedirect.com/science/article/pii/S2589004220300675)) for Immunoglobulin Heavy Chain V gene genotyping using WGS [PacBio](https://www.pacb.com/) sequence. I am also co-author to the paper describing the [Aldy tool](https://github.com/0xTCG/aldy) for pharmacogenomic genotyping, published in [Nature Communications](https://www.nature.com/articles/s41467-018-03273-1).
+
 
 ### Education
-I am currently a MSc candidate in the School of Computing Science at [Simon Fraser University](www.sfu.ca) supervised by [Cenk Sahinalp](https://www.sice.indiana.edu/all-people/profile.html?profile_id=291) and [Faraz Hach](http://www.cs.sfu.ca/~fhach/personal/). I am a member of the SFU Computational Biology Lab as well as the [Lab for Bioinformatics and Computational Genomics](http://www.iu.edu/~compgen/index.html) at Indiana University. 
 
-I did my BSc at SFU in the [Joint Major program in Computing Science and Molecular Biology and Biochemistry](https://www.sfu.ca/bioinformatics/undergrad.html). My multi-displinary degree gave me foundational knowledge in the general field of biology as well as computer science, as well as providing the opportunity to focus my studies on genomics and combinatorial algoirithms.
+- Master of Science in Computing Science, Simon Fraser University, BC Canada. Fall 2019
+- Bachelor of Applied Science, [Joint Major in Computing Science and Molecular Biology and Biochemistry](https://www.sfu.ca/bioinformatics/undergrad.html), Simon Fraser University, BC Canada. 
